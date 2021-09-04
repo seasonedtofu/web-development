@@ -1,0 +1,117 @@
+html{
+    min-height: 100%;
+    margin: 0;
+}
+
+p {
+    font-size: 0.8vw;
+    font-weight: bold;
+}
+
+body {
+    background: url("../images/background.png") no-repeat center bottom/cover;
+    background-color: white ; /*#ddf3f5*/
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    min-height: 100%;
+}
+
+hr {
+    background-color: none;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #ffe0f7;
+    border-width: 8px ;
+    width: 8%;
+    margin: 20px auto 20px auto;
+}
+
+h1 {
+    color: #12cad6;
+    font-size: 2vw;
+    /*font-family: 'Arima Madurai', cursive;*/
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5vw;
+    color: #12cad6;
+}
+
+h3 {
+    color: #12cad6;
+    font-size: 1.5vw;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.intro {
+    width: 50%;
+    margin: 60px auto 100px auto;
+    text-align: left;
+}
+
+.intro-statement {
+    padding-top: 50px;
+}
+
+.img-me {
+    max-width: 150px;
+    margin-right: 30px;
+    margin-left: 18%;
+    float: left;
+}
+
+.top-container {
+    text-align: left;
+    padding: 8px;
+    padding-left: 15px;
+}
+
+.bio {
+    margin: 60px 20% 60px 20%;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#page-container {
+    position: relative;
+    min-height: 95vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.tacos-img {
+    max-width: 150px;
+    margin-right: 30px;
+    margin-left: 18%;
+    float: left;
+}
+
+.tacos-statement {
+    padding-top: 35px;
+}
+
+.skills {
+    width: 50%;
+    margin: 60px auto 100px auto;
+    text-align: left;
+}
+
+a:hover {
+    color: rgb(224, 15, 162);
+}
