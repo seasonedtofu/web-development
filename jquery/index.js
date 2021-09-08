@@ -1,3 +1,11 @@
-$("h1").addClass("big-title margin-50");
-$("h1").text("Bye");
-$("button").html("<em>Hey</em>");
+$("button").click(function(){
+    $("h1").animate({opacity:0.5});
+});
+
+$("button").click(function(){
+    $("h1").css("color","blue");
+});
+
+$("h1").on("mouseover",function(){
+    $("h1").css("color","purple");
+});
